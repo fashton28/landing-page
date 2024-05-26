@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Beggining of first section */
+.section-one {
+    background-color: #1F2937;
+    padding: 10px 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    margin: 0;
+}
+
+.hello {
+    display: flex;
+}
+
+.hello a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.hello a:hover {
+    color: #ddd;
+}
+
+
+.main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first {
+    width: 400px;
+    padding: 20px;
+    margin: 40px;
+    margin-left: 100px;
+}
+.large-title{
+
+    color: #ddd;
+    font-size: 48px;
+    margin: 0;
+
+}
+
+p {
+    color:#ddd;
+}
+
+.placeholder {
+    
+    height: 300px;
+    width: 600px;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.button-head {
+
+    background-color: #3882f6;
+    border-color: #3882f6;
+    font-size: 18px;
+    color: #ddd;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    
+}
+.button-head:hover{
+    cursor: pointer;
+    background-color: blue;
+    
+}
+
+/* end of first section */
+
+/* beginning of second section */
+#title-section2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 200px;
+}
+
+ .img1 {
+    height: 10px;
+    width: 10px;
+    
+}
+
+
+
+
+
+
