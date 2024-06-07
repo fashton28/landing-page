@@ -97,20 +97,32 @@ p {
     padding: 30px;
 }
 
-.gallery {
-    display: flex;
-    justify-content: space-between;
-    margin: 200px;
+
+.lion {
+    width: 200x;
+    height: 300px;
+
+}
+/* end of second section */
+
+.quote {
+    background-color: #e5e7eb;
 }
 
- .img1 {
-    height: 10px;
-    width: 10px;
+.quote-container {
+    
+    height: 100% ;
+    margin-left: 400px ;
+    margin-right: 400px ;
+    margin-top: 100px;
+    font-size: 36px;
+    padding: 100px;
     
 }
 
-
-
+.author > h4 {
+    justify-content: flex-end;
+}
 
 
 
