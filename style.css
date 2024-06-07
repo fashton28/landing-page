@@ -125,4 +125,80 @@ p {
 }
 
 
+.lastdiv {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox > p {
+    color: black;
+}
+
+.left > h4 {
+
+    color: white;
+    
+}
+
+.bluebox {
+    display: flex;
+    border: solid;
+    background-color: #3882f6;
+    height: 120px;
+    width: 830px;
+    flex-direction: row;
+    border-radius: 15px;
+    
+}
+
+.left {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    
+    flex-direction: column;
+    margin-left: 40px;
+
+}
+
+.right {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+        
+}
+
+.right > button {
+
+    background-color: white;
+    border-color: white;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+
+.footer > h5 {
+
+    color: white;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    height: 60px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
 
